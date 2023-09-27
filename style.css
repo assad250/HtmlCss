@@ -1,0 +1,53 @@
+.topnav {
+
+  overflow: hidden;
+  transition: 0.3s ease;
+ 
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ .topnav a.active {
+  background-color: rgb(88, 76, 70);
+  color: white;
+}
+.topnav a:hover{
+    color: sienna;
+    text-decoration: underline;
+}
+  
+  
+  input{
+   padding: 15px;
+   width: 40%;
+  border-radius: 20%;
+  border: none;
+  }
+  .srch{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    width: 50%;
+    border: none;
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
