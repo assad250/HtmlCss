@@ -1,143 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-  <head>
-
-  
-        <title>CONTACT FORM</title>
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CONTACT FORM</title>
     <style>
-      body{
-        background-image: url(back1.avif);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+        body {
+            background-image: url(back1.avif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
 
-    .forms{
-        font-size: 30px;
-        color: white;
-        text-align: center;
-        border: 1px solid white;
-        width: 70%;
-       
-        
-     
-      
-
-    }
-    label{
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 20px;
-       
-
-    }
-    input{
-        width: 50%;
-        margin: 20px;
-        padding: 7px;
-        border-radius: 5px;
-        border: solid;
-    }
-    button{
-        font-size: 20px;
-        padding: 5px;
-        width: 30%;
-        margin-bottom: 20px;
-        background-color: sienna;
-        color: white;
-        border: solid;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 0.8s;
-    }
-     button:hover{
-    text-decoration: underline;
-    background-color: sandybrown;
-    }
-    
- footer{
-    background-color: rgb(93, 66, 53);
-    padding: 20px;
-}
-.container{
-   padding: 20px;
-    text-align: center;
-    transition: 0.5s;
-
-}
-.container,.socialicons a:hover{
- color: greenyellow;
- opacity: 0.8;
-
-}
-.socialicons, a,i{
-    margin: 10px;
-    color: white;
+        .div-form {
+            border: 1px solid rgb(255, 255, 255);
+            padding: 30px;
+            margin: 30px;
+            text-align: center;
+            width: auto;
+            color: white;
 
 
-}
-.footerbottom{
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  font-style: italic;
-}
+        }
 
+        form {
+            padding: 30px;
+            margin: 20px;
+            color: whitesmoke;
+        }
+
+        label,
+        input {
+            margin: 20px;
+        }
+
+        input {
+            width: 50%;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        .sbmt {
+            cursor: pointer;
+            background-color: sienna;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        .sbmt:hover {
+            text-decoration: underline;
+            background-color: salmon;
+        }
+
+
+        footer {
+            background-color: rgb(50, 25, 10);
+            padding: 20px;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+            transition: 0.5s;
+
+        }
+
+        .container,
+        .socialicons a:hover {
+            color: greenyellow;
+            opacity: 0.8;
+
+        }
+
+        .socialicons,
+        a,
+        i {
+            margin: 10px;
+            color: white;
+
+
+        }
+
+        .footerbottom {
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-style: italic;
+        }
     </style>
-    <body>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about us.html">about us</a>
+        <a href="contact.html">contact</a>
+        <a href="menu.html">menu</a>
+        <a href="gallery.html">gallery</a>
+
+    </div>
+
+    <div class="div-form">
+        <h3>Fill in this form</h3>
+        <form action="">
+            <label for="fname">NAMES:</label>
+            <input type="text" id="name" placeholder="enter your name"><br>
+
+            <label for="mail">EMAIL:</label>
+            <input type="text" id="mail" placeholder="enter your email"><br>
+
+            <label for="subject">SUBJECT:</label>
+            <input type="text" id="name" placeholder="enter the subject"><br>
+
+            <label for="msg">MESSAGE:</label>
+            <input type="text" id="msg" placeholder="enter your message"><br>
+
+            <input class="sbmt" type="submit" value="login">
+
+        </form>
+    </div>
 
 
-        <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="about us.html">about us</a>
-            <a href="contact.html">contact</a>
-            <a href="menu.html">menu</a>
-            <a href="gallery.html">gallery</a>
-          
-        
-          </div>
-      
-           <form class="forms">
-            <h3>fill in this form.</h3>
-            <label for="fname">Names:</label>
-            <input type="text" id="fname" name="fname"><br>
-
-            <label for="fname">Email:</label>
-            <input type="text" id="fname" name="fname"><br>
-
-            <label for="fname">Subject:</label>
-            <input type="text" id="fname" name="fname"><br>
-
-            <label for="fname"> Message:</label>
-            <input type="text" id="fname" name="fname"><br>
-            
-            <button>submit</button>
-          </form>
-         
 
 
-          <footer class="footer">
-            <div class="container">
-                <div class="socialicons">
-                    <a href=""><i class="fa-brands fa-facebook">facebook</i></a>
-                    <a href=""><i class="fa-brands fa-instagram">instagram</i></a>
-                    <a href=""><i class="fa-brands fa-twitter">twitter</i></a>
-                    <a href=""><i class="fa-brands fa-whatsapp">whatsapp</i></a>
-                </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="socialicons">
+                <a href=""><i class="fa-brands fa-facebook">facebook</i></a>
+                <a href=""><i class="fa-brands fa-instagram">instagram</i></a>
+                <a href=""><i class="fa-brands fa-twitter">twitter</i></a>
+                <a href=""><i class="fa-brands fa-whatsapp">whatsapp</i></a>
             </div>
-        
-        
+        </div>
+
+
         <div class="footerbottom">
             <p>copyright &copy2023; Designed by ASSAD</p>
         </div>
-        
-        </footer>
 
-    </body>
+    </footer>
+</body>
+
 </html>
