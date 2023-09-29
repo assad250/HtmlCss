@@ -13,16 +13,65 @@
 
 <style>
   body {
-    background-image: url(back1.avif);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url(backgrounds/back1.avif);
+    color: white;
   }
 
-  #img-gal {
-    height: 250px;
-    padding: 10px;
-    width: 250px;
+  .images-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-items: space-between;
+    margin: 0;
+  }
+
+  .photos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-items: space-between;
+    margin: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-items: space-between;
+    margin: 0;
+  }
+
+  .photo {
+    width: 300px;
+    flex: 1;
+    flex-shrink: 0;
+    width: 0;
+
+  }
+
+  .images {
+    width: 300px;
+    flex: 1;
+    flex-shrink: 0;
+    width: 0;
+
+
+  }
+
+  .flexible {
+    width: 500px;
+    flex: 1;
+    flex-shrink: 0;
+    width: 0;
+
+
   }
 
   footer {
@@ -83,16 +132,86 @@
   <h2 style="text-align: center;
     color: white;">GALLERY</h2>
 
-  <div>
-    <a href="Thumbnails/img-bottle.jpeg"> <img id="img-gal" src="Thumbnails/img-bottle.jpeg"> </a>
-    <a href="Thumbnails/img-plant.jpeg"> <img id="img-gal" src="Thumbnails/img-plant.jpeg"> </a>
-    <a href="Thumbnails/img-seeds.jpeg"> <img id="img-gal" src="Thumbnails/img-seeds.jpeg"> </a>
-    <a href="Thumbnails/img-supermarket.jpeg"> <img id="img-gal" src="Thumbnails/img-supermarket.jpeg"> </a>
-    <a href="Thumbnails/img-snack.jpeg"> <img id="img-gal" src="Thumbnails/img-snack.jpeg"> </a>
-    <a href="Thumbnails/img-enclosed.jpeg"> <img id="img-gal" src="Thumbnails/img-enclosed.jpeg"> </a>
-    <a href="Thumbnails/img-harvest.jpeg"> <img id="img-gal" src="Thumbnails/img-harvest.jpeg"> </a>
-    <a href="Thumbnails/img-market.jpeg"> <img id="img-gal" src="Thumbnails/img-market.jpeg"> </a>
+
+
+  <div class="images-container">
+
+    <div class="photo">
+      <img src="Thumbnails/img-bottle.jpeg" alt="">
+      <p>coffee cups</p>
+    </div>
+
+    <div class="photo">
+      <img src="Thumbnails/img-enclosed.jpeg" alt="">
+      <p>coffee enclosed envelopes and a tea cup</p>
+    </div>
+
+    <div class="photo">
+      <img src="Thumbnails/img-market.jpeg" alt="">
+      <p>different coffee flavours</p>
+    </div>
+
+    <div>
+      <img src="Thumbnails/image1.jpeg" alt="">
+      <p>coffee display</p>
+    </div>
+
   </div>
+
+
+
+
+
+
+
+  <div class="photos-container">
+    <div class="images">
+      <img src="Thumbnails/img-plant.jpeg" alt="">
+      <p>woman harvesting coffee</p>
+    </div>
+
+    <div class="images">
+      <img src="Thumbnails/img-seeds.jpeg" alt="">
+      <p>coffee beans and coffee farm</p>
+    </div>
+
+    <div class="images">
+      <img src="Thumbnails/img-snack.jpeg" alt="">
+      <p>display of coffee with some snacks</p>
+    </div>
+
+    <div>
+      <img src="Thumbnails/image3.jpeg" alt="">
+      <p>person enjoying coffee flavour</p>
+    </div>
+
+  </div>
+
+
+
+  <div class="flex-container">
+    <div class="flexible">
+      <img src="Thumbnails/img-supermarket.jpeg" alt="">
+      <p>coffee products layout in a supermarket</p>
+    </div>
+
+    <div class="flexible">
+      <img src="Thumbnails/interior.jpeg" alt="">
+      <p>coffee roastering room with different equipments</p>
+    </div>
+
+    <div class="flexible">
+      <img src="Thumbnails/interior3.jpeg" alt="">
+      <p>coffee products arranged respectively to their use.</p>
+    </div>
+
+    <div>
+      <img src="Thumbnails/img-cup.jpeg" alt="">
+      <p>Barista frothing milk to be given to clients.</p>
+    </div>
+  </div>
+
+
 
 
 
